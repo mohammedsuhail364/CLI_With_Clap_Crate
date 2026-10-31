@@ -1,0 +1,8 @@
+[package]
+name = "CLI_With_Clap_Crate"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cargo = "0.100.0"
+clap = { version = "4.6.7", features = ["cargo"] }
